@@ -1,11 +1,8 @@
 //#includes are ALWAYS at top of file
 #include <iostream>	//iostream is where std::cout and std::endl are defined
+#include "myfunc.h" //func.h defines func()
 
-std::string func()
-{
-	//say hello
-	return "hello";
-}
+//func() has been removed and is now in func.cpp and func.h
 
 int main()
 {
